@@ -14,7 +14,7 @@ pwnme          | 188.166.120.108 | 10001        |
 ropme          | 188.166.120.108 | 10002        |
 
 ### IMPORTANTE
-Tanto pwnme como ropme están diseñados para ser ejecutados sobre un sistema Linux (se han probado en Debian) con ASLR desactivado. Para ello, ejecutar:
+Tanto pwnme como ropme están diseñados para ser ejecutados sobre un sistema Linux x64 (se han probado en Debian) con ASLR desactivado. Para ello, ejecutar:
 ```
 echo 0 > /proc/sys/kernel/randomize_va_space
 ```
